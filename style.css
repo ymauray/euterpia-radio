@@ -1,0 +1,32 @@
+/*
+Theme Name: Euterpia Radio
+Theme URI: http://www.euterpia-radio.fr/theme/basic
+Version: 1.0
+Description: Plop
+Author: Euterpia Radio
+Author URI: http://www.euterpia-radio.fr
+Template: Basic
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+        list-style-image: none;
+}
+
+.sidebar-box ul {
+        list-style-image: none;
+}
+
+#header {
+	background-image: url('header-snow.jpg');
+}
+
+.thumbnail {
+	float: right;
+}
+
