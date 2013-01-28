@@ -27,14 +27,14 @@ function er_internal_links($content) {
 	$new_content = '';
 
 	if (count($voir_aussi) > 0) {
-		$new_content = '<p>Voir aussi :<ul>';
+		$new_content = '<div class="listen-more">Ecouter aussi :<ul>';
 		foreach ($voir_aussi as $item) {
 			$artist = $item[0];
 			$post = $item[1];
 			//error_log($artist . ' dans ' . $post->post_title);
 			$new_content .= '<li>' . $artist . ' dans <a href="' . get_permalink($post->ID) . '">' . $post->post_title . '</a></li>';
 		}
-		$new_content .= '</ul></p>';
+		$new_content .= '</ul></div>';
 	}
 
 	//error_log($new_content);

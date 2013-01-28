@@ -30,3 +30,10 @@ ul {
 	float: right;
 }
 
+.listen-more {
+	/*border: 1px solid #DDDDDD;*/
+	background-color: #DDDDDD;
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
